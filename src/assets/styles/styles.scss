@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada&display=swap");
+@media only screen and (min-width: 550px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f0f8ff;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: lighter;
+    font-size: 1.2em;
+    font-style: normal;
+    font-stretch: normal;
+    // min-height: 150vh;
+    overflow: auto;
+    max-height: 70vh;
+  }
+
+  form {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+  }
+
+  div.form-group {
+    width: 37%;
+    padding-right: 40px;
+  }
+
+  ul.align {
+    padding-top: 10px;
+    justify-content: center;
+  }
+
+  table {
+    height: 50px;
+  }
+}
+
+div.no-data-error {
+  margin-top: 10%;
+  text-align: center;
+  font-weight: bold;
+  font-size:larger;
+}
