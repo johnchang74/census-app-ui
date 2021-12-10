@@ -1,7 +1,9 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import Axios from 'axios';
 
-// census info app
+// census front-end
+// writer: John Chang 
+// date: Dec 10, 2021
 function App() {
   // census data list
   const [census, setCensus] = useState([])
